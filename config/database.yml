@@ -1,5 +1,5 @@
 
-default:
+default: &default
     adapter: postresql
     encoding: unicode
     pool: 5
@@ -9,5 +9,7 @@ default:
     port: 5432
     password: UNKQ4GdefVICsuuyQsnU4IfkMa
 
+production:
+    <<: *default
 
 
