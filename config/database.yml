@@ -3,11 +3,11 @@ default: &default
     adapter: postgresql
     encoding: unicode
     pool: 5
-    host: ec2-107-22-166-233.compute-1.amazonaws.com
-    database: dc9fun1qd8opgh
-    user: yivubqzlorjvan
+    host: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIFT_POSTGRESQL_DB_PORT
+    database: selfup
+    user: adminggkpb75
     port: 5432
-    password: UNKQ4GdefVICsuuyQsnU4IfkMa
+    password: gY1tmaur3gaa
 
 development:
  <<: *default
