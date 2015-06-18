@@ -14,7 +14,7 @@ group :production do
     gem 'rails_12factor'
 end
 
-gem 'pg'
+gem 'pg', '~> 4.0.3'
 
     gem 'carrierwave'
 
