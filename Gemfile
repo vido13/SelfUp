@@ -10,11 +10,11 @@ group :development do
 end
 
 group :production do
-	gem 'pg'
+	gem 'pg' '~> 9.2'
     gem 'rails_12factor'
 end
 
-gem 'pg', '~> 4.0.3'
+gem 'pg', '~> 9.2'
 
     gem 'carrierwave'
 
