@@ -5,9 +5,9 @@ default: &default
     pool: 5
     host: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIFT_POSTGRESQL_DB_PORT
     database: selfup
-    user: adminggkpb75
+    user: adminpmkruih
     port: 5432
-    password: gY1tmaur3gaa
+    password: NQLBTBvshkvw
 
 development:
  <<: *default
